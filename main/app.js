@@ -77,6 +77,11 @@ inquirer
         },
         {
             type: 'input',
+            name: 'userPets',
+            message: 'what is your pets name?',
+        },
+        {
+            type: 'input',
             name: 'gitHubUrl',
             message: 'Enter your GitHub Username',
         },
