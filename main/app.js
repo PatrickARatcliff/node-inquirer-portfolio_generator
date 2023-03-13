@@ -39,8 +39,8 @@ const generatePortfolio = ({ userName, userLocation, userHobby, userFood, userPe
                                     </ul>
                                   </div>
                             </li>
-                            <li class="list-group-item bg-primary">LinkedIn: <a style="color: whitesmoke" href="${linkedInUrl}">${linkedInUrl}</a></li>
-                            <li class="list-group-item bg-secondary">GitHub: <a style="color: whitesmoke" href="${gitHubUrl}">${gitHubUrl}</a></li>
+                            <li class="list-group-item bg-primary">LinkedIn: <a style="color: whitesmoke" href="${linkedInUrl}" target="_blank">${linkedInUrl}</a></li>
+                            <li class="list-group-item bg-secondary">GitHub: <a style="color: whitesmoke" href="https://github.com/${gitHubUrl}" target="_blank">${gitHubUrl}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ inquirer
     .prompt([
         {
             type: 'input',
-            name: 'UserName',
+            name: 'userName',
             message: 'What is your name?',
         },
         {
