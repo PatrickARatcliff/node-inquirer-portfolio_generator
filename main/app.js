@@ -43,7 +43,7 @@ const generatePortfolio = ({ userName, userLocation, userHobby, userFood, userPe
                             </li>
                             <li class="list-group-item" style="background-color:blue">
                                 <div class="d-grid gap-2">
-                                    <button onclick="window.open('https://www.linkedin.com/in/${linkedInUrl}/', '_blank')" variant="primary" class='mx-1 bi bi-linkedin rounded'><svg
+                                    <button onclick="window.open('${linkedInUrl}', '_blank')" variant="primary" class='mx-1 bi bi-linkedin rounded'><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue"
                                             view-box="0 0 16 16">
                                             <path
